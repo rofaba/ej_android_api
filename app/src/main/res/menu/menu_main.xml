@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        PARTE MODIFICABLE EN EXAMEN:
+        Puedes eliminar o añadir items sin tocar lógica
+    -->
+    <item
+        android:id="@+id/action_favoritos"
+        android:title="Favoritos"
+        android:icon="@android:drawable/btn_star"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Recargar"
+        android:icon="@android:drawable/ic_popup_sync"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_clear"
+        android:title="Limpiar"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_todos"
+        android:title="Todos"
+        app:showAsAction="never"/>
+</menu>
